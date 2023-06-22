@@ -1,20 +1,31 @@
-.container {
-  /* height: 100vh;
-  width: 100vw; */
-  display: flex;
-  justify-content: center;
-  margin-top: 20vh;
+.container h1 {
+  margin: 12%;
+  font-weight: bold;
 }
+.container h1 span {
+  font-weight: bold;
+  text-decoration: underline;
+  color: aqua;
+}
+
 body {
-  background-color: #92e8f0;
+  background-color: #03353a;
+  color: white;
 }
 label {
   margin: 0 5vh;
   font-weight: bolder;
 }
+.display input {
+  width: 45vw;
+}
 #mysearch {
   margin: 4vh auto;
   display: flex;
   height: 5vh;
-  width: 30vw;
+  width: 50vw;
+}
+#sm {
+  color: cyan;
+  font-size: 20px;
 }

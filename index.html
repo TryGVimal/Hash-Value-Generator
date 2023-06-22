@@ -20,15 +20,43 @@
     <title>Hash value Generator</title>
   </head>
   <body>
-    <h1 class="text-center m-4 font-weight-bold">Hash value Generator</h1>
-
     <div class="container">
-        <label for="myfile">Select a file:</label>
-        <input type="file" id="myfile" name="myfile"> 
+      <h1>Hash value <br /><span>Generator</span></h1>
 
+      <div class="display">
+        <div
+          class="input-group mb-3 d-flex justify-content-center align-items-center"
+        >
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="input">Upload</span>
+          </div>
+          <div class="custom-file">
+            <input
+              type="file"
+              class="custom-file-input"
+              id="myfile"
+              aria-describedby="inputGroupFileAddon01"
+            />
+            <label class="custom-file-label" for="inputGroupFile01"
+              >Choose file</label
+            >
+          </div>
+        </div>
+
+        <div
+          class="form-group my-4 d-flex flex-column justify-content-center align-items-center"
+        >
+          <input
+            type="text"
+            class="form-control"
+            id="mysearch"
+            aria-describedby="emailHelp"
+            placeholder="Hash value of Your file "
+          />
+          <small id="sm" class="form-text">Hash value of Your file.</small>
+        </div>
+      </div>
     </div>
-        <input type="search" name="search" id="mysearch" placeholder="The hash value of your file">
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
