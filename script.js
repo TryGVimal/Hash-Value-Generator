@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Create a FileReader to read the file
     var reader = new FileReader();
 
-    // When the file is loaded, calculate the hash value
+    // When the file is loaded, calculate the hash values
     reader.onload = function (event) {
       var fileData = event.target.result; // Get the file data
       calculateHash(fileData);
